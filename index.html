@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Battery API Experiment">
+    <meta name="author" content="ShivashishY">
+
+    <title>Your Battery Level/Percentage</title>
+
+    <link href="dist/app.min.css" rel="stylesheet">
+  </head>
+
+<body>
+
+<div class="container-fluid battery-app">
+
+<div class="container-fluid text-center">
+  <h1> Battery Status </h1>
+</div>
+
+<main>
+  <div class="container-fluid dashboard">
+    <div class="col-xs-24 col-sm-8 text-center">
+      <div>
+        <h2>Current Level</h2>
+      </div>
+      <div>
+        <p id="bat-current"><span low="false">unknown</span></p>
+      </div>
+    </div>
+    <div class="col-xs-24 col-sm-8 text-center">
+      <div>
+        <h2>Charging Status</h2>
+      </div>
+      <div>
+        <p id="bat-charge"><span low="false">unknown</span></p>
+      </div>
+    </div>
+    <div class="col-xs-24 col-sm-8 text-center">
+      <div>
+        <h2>Remaining</h2>
+      </div>
+      <div>
+        <p id="bat-remain"><span low="false"><em>forever</em></span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pie-chart">
+    <div id="piechart" style="width: 100%; height: 100%;"></div>
+  </div>
+
+</main>
+
+<!-- <div id="bat-bar">
+  <div id="bat-bar-level"></div>
+</div> -->
+
+</div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="dist/app.min.js"></script>
+</body>
+</html>

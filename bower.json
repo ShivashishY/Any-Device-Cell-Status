@@ -1,0 +1,22 @@
+{
+  "name": "battery-level",
+  "description": "Battery API experiment",
+  "main": "battery.js",
+  "authors": [
+    "ShivashishY"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ShivashishY/Any-Device-Cell-Status",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "components-font-awesome": "^4.7.0",
+    "bootstrap-grid-only": "^1.0.0"
+  },
+  "devDependencies": {
+  }
+}
